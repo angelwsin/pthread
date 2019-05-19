@@ -11,6 +11,10 @@
 int main(int argc, const char * argv[]) {
   
     //同步版定时器
-    timer();
+    //timer();
+    //多进程版
+    //timermp();
+    //多线程版
+    timerthread();
     return 0;
 }
