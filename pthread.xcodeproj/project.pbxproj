@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04D1F6D42291930600533F12 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D1F6D32291930600533F12 /* main.c */; };
 		04D1F6DC2291932300533F12 /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D1F6DB2291932300533F12 /* timer.c */; };
+		04D1F6DF22923E6400533F12 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D1F6DE22923E6400533F12 /* thread.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		04D1F6D32291930600533F12 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		04D1F6DA2291932300533F12 /* timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
 		04D1F6DB2291932300533F12 /* timer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = timer.c; sourceTree = "<group>"; };
+		04D1F6DD22923E6400533F12 /* thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		04D1F6DE22923E6400533F12 /* thread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = thread.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				04D1F6D32291930600533F12 /* main.c */,
 				04D1F6DA2291932300533F12 /* timer.h */,
 				04D1F6DB2291932300533F12 /* timer.c */,
+				04D1F6DD22923E6400533F12 /* thread.h */,
+				04D1F6DE22923E6400533F12 /* thread.c */,
 			);
 			path = pthread;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			files = (
 				04D1F6D42291930600533F12 /* main.c in Sources */,
 				04D1F6DC2291932300533F12 /* timer.c in Sources */,
+				04D1F6DF22923E6400533F12 /* thread.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
